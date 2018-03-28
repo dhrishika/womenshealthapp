@@ -5,7 +5,7 @@ import { NavController, LoadingController } from 'ionic-angular';
 import { Validators, FormBuilder, FormGroup, FormControl } from '@angular/forms';
 import { WordpressService } from '../../services/wordpress.service';
 import { AuthenticationService } from '../../services/authentication.service';
-//Hello - Iram
+//No
 @Component({
   selector: 'page-login',
   templateUrl: 'login.html'
