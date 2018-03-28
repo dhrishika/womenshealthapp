@@ -34,7 +34,8 @@ export class LoginPage {
   login(value){
     let loading = this.loadingCtrl.create();
     loading.present();
-
+console.log("Username", value.username);
+console.log("Password", value.password);
     this.authenticationService.doLogin(value.username, value.password)
     .subscribe(res => {
        this.authenticationService.setUser({
